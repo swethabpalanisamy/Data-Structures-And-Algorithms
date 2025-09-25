@@ -2,6 +2,10 @@
  * @param {number[]} arr
  */
 class Solution {
+
+    constructor(arr) {
+        this.arr = arr;
+    }
     bubbleSort(arr) {
         // code here
         for (let i = 0; i < arr.length; i++) {
